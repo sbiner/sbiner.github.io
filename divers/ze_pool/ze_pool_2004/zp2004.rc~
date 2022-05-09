@@ -1,0 +1,4 @@
+from HTMLcolors import *
+
+bgcolor='BLUE1'
+textcolor='ORANGE'

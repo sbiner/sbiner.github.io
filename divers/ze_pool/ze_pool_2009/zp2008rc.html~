@@ -1,0 +1,6 @@
+from HTMLcolors import *
+
+bgcolor='BLUE'
+textcolor='YELLOW'
+linkcolor='YELLOW'
+vlinkcolor='YELLOW'

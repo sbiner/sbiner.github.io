@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<!-- This file generated using Python HTMLgen module. -->
+<HEAD>
+<META NAME="GENERATOR" CONTENT="HTMLgen 2.2.2">
+<link rel="stylesheet" media="all" type="text/css" href="ski_v2.css">
+
+<TITLE>conditions ski</TITLE>
+</HEAD>
+
+
+
+
+<BODY BGCOLOR="#FFFF66">
+<H2>Divers</H2>
+
+<EM>conditions pour quelques stations</EM>
+
+<div style="float : None">
+
+<div class="gallerie_image" >
+<a HREF="fig/condition_tremblant.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_tremblant.png" >
+<span><img src="fig/condition_tremblant.png"></span></a>
+<br>
+Tremblant
+<br>
+</div>
+
+<div class="gallerie_image">
+<a HREF="fig/condition_mont-saint-sauveur.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_mont-saint-sauveur.png">
+<span><img src="fig/condition_mont-saint-sauveur.png"></span>
+</a>
+<br>
+Saint-Sauveur
+</div>
+
+
+<div class="gallerie_image">
+<a HREF="fig/condition_mont-sutton.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_mont-sutton.png">
+<span><img src="fig/condition_mont-sutton.png"></span>
+</a>
+<br>
+Sutton
+</div>
+
+<div class="gallerie_image">
+<a HREF="fig/condition_ski-bromont.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_ski-bromont.png">
+<span><img src="fig/condition_ski-bromont.png"></span>
+</a>
+<br>
+Bromont
+</div>
+
+<div class="gallerie_image">
+<a HREF="fig/condition_mont-orford.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_mont-orford.png">
+<span><img src="fig/condition_mont-orford.png"></span>
+</a>
+<br>
+Mont-Orford
+</div>
+
+<div class="gallerie_image">
+<a HREF="fig/condition_mont-sainte-anne.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_mont-sainte-anne.png">
+<span><img src="fig/condition_mont-sainte-anne.png"></span>
+</a>
+<br>
+Mont-Sainte-Anne
+</div>
+
+<div class="gallerie_image">
+<a HREF="fig/condition_le-massif.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_le-massif.png">
+<span><img src="fig/condition_le-massif.png"></span>
+</a>
+<br>
+Le-Massif
+</div>
+
+<div class="gallerie_image">
+<a HREF="fig/condition_sunshine-village.png" TARGET="affichage" class="thumbnail"> <img height="100px" width="100px" src="fig/condition_sunshine-village.png">
+<span><img src="fig/condition_sunshine-village.png"></span>
+</a>
+<br>
+Sunshine-Village
+</div>
+
+</div>
+
+
+
+
+<UL>
+<LI> <A HREF="fig/condition_tremblant.png" TARGET="affichage">Tremblant</A> conditions.
+
+<LI> <A HREF="fig/condition_mont-sutton.png">Sutton</A> conditions
+
+</UL>
+
+
+</BODY> </HTML>
