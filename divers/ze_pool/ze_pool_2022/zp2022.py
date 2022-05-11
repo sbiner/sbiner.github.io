@@ -1,6 +1,8 @@
 # ajout de htmlgen et de biner
-rep_htmlgen='../../../../../../local/modules_externes/HTMLgen'
+rep_htmlgen='../../../../../../Local/modules_externes/HTMLgen'
+rep_htmlgen="/Users/sbiner/cloud/Sync/local/modules_externes/HTMLgen"
 rep_biner='../../../../../CODE/python/stable'
+rep_biner="/Users/sbiner/cloud/Sync/perso/CODE/python/stable"
 import sys
 sys.path.append(rep_htmlgen)
 sys.path.append(rep_biner)
@@ -16,7 +18,7 @@ r1.append('Fred, BOS 4, TB 4, PIT 4, WAS 4, STL 4, LA 4, NAS 4, DAL 4, NAS'.spli
 r1.append('Travis, BOS 6, TOR 7, NYR 6, FLO 5, MIN 7, LA 5, COL 4, CAL 5, CAL'.split(','))
 r1.append('Alain, CAR 7, TB 7, NYR 6, FLO 6, MIN 7, EDM 7, COL 4, CAL 5, CAL'.split(','))
 r1.append('Pat, CAR 5, TB 6, PIT 7, FLO 6, MIN 7, EDM 5, COL 5, CAL 5, COL  '.split(','))
-r1.append('Do, BOS 6, TB 6, MYR 7, WAS 7, MIN 6, LA 7, COL 6, DAL 6, CAR'.split(','))
+r1.append('Do, BOS 6, TB 6, NYR 7, WAS 7, MIN 6, LA 7, COL 6, DAL 6, CAR'.split(','))
 r1.append('Mike, CAR 7, TB 6, NYR 5, FLO 7, MIN 6, EDM 7, COL 4, CAL 4, COL'.split(','))
 r1.append('Valerie, CAR 6, TB 7, PIT 7, FLO 5, MIN 7, EDM 6, COL 5, DAL 6, COL'.split(','))
 r1.append('Phil R., CAR 6, TB 7, NYR 6, FLO 5, MIN 6, EDM 5, COL 4, CAL 5, COL'.split(','))
@@ -50,7 +52,7 @@ clefs_r4='nom '.split()
 r4=[]
 
 
-res_r1={}        
+res_r1={'COL/NAS':'COL 4'}        
 res_r2={}
 res_r3={}
 res_r4={}
