@@ -52,7 +52,7 @@ clefs_r4='nom '.split()
 r4=[]
 
 
-res_r1={'COL/NAS':'COL 4'}        
+res_r1={'COL/NAS':'COL 4', 'FLO/WAS':'FLO 6', 'TOR/TB':'TB 7', 'CAR/BOS': 'CAR 7', 'MIN/STL':'STL 6', 'EDM/LA':'EDM 7'}        
 res_r2={}
 res_r3={}
 res_r4={}
