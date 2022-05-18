@@ -40,8 +40,23 @@ for r in r1 :
 r1=listeR1
 
 
-clefs_r2='nom '.split()
+clefs_r2='nom FLO/TB CAR/NYR COL/STL CAL/EDM'.split()
 r2=[]
+r2.append('Fred, TB 4, NYR 4, STL 4, EDM 4'.split(','))
+r2.append('Travis, TB 6, NYR 6, COL 5, CAL 7'.split(','))
+r2.append('Alain, TB 7, CAR 6, COL 6, CAL 7'.split(','))
+r2.append('Pat, FLO 7, CAR 6, COL 6, EDM 7'.split(','))
+r2.append('Do, TB 5, CAR 6, COL 7, CAL 7'.split(','))
+r2.append('Mike, FLO 7, CAR 6, COL 5, CAL 7'.split(','))
+r2.append('Valerie, TB 6, CAR 6, COL 5, EDM 6'.split(','))
+r2.append('Phil R., TB 6, NYR 6, COL 5, CAL 7'.split(','))
+r2.append('Phil P., FLO 6, NYR 7, COL 7, CAL 7'.split(','))
+r2.append('Seb, TB 7, CAR 6, COL 5, CAL 7'.split(','))
+r2.append('Norm, TB 7, CAR 7, COL 6, CAL 6'.split(','))
+r2.append('Daniel, FLO 6, CAR 6, COL 6, CAL 6'.split(','))
+r2.append('Chee, TB 6, NYR 7, COL 5, CAL 7'.split(','))
+r2.append('Yorann, TB 6, NYR 7, STL 7, EDM 5'.split(','))
+r2.append('Etienne, FLO 6, CAR 7, COL 6, CAL 7'.split(','))
 
 
 clefs_r3='nom '.split()
