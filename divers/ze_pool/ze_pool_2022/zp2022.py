@@ -59,8 +59,23 @@ r2.append('Yorann, TB 6, NYR 7, STL 7, EDM 5'.split(','))
 r2.append('Etienne, FLO 6, CAR 7, COL 6, CAL 7'.split(','))
 
 
-clefs_r3='nom '.split()
+clefs_r3='nom COL/EDM NYR/TB'.split()
 r3=[]
+r3.append('Fred, EDM 4, TB 4'.split(','))
+r3.append('Travis, COL 6, NYR 7'.split(','))
+r3.append('Alain, EDM 6, TB 6'.split(','))
+r3.append('Pat, COL 7, NYR 7'.split(','))
+r3.append('Do, COL 6, TB 6'.split(','))
+r3.append('Mike, COL 6, TB 5'.split(','))
+r3.append('Valerie, COL 6, TB 5'.split(','))
+r3.append('Phil R., COL 6, TB 6'.split(','))
+r3.append('Phil P., COL 6, NYR 7'.split(','))
+r3.append('Seb, EDM 6, TB 7 '.split(','))
+r3.append('Norm, COL 6, TB 7, '.split(','))
+r3.append('Daniel, COL 6, TB 6, '.split(','))
+r3.append('Chee, COL 6, TB 7'.split(','))
+r3.append('Yorann, EDM 6, TB 7'.split(','))
+r3.append('Etienne, COL 6, NYR 6'.split(','))
 
 
 clefs_r4='nom '.split()
@@ -68,7 +83,7 @@ r4=[]
 
 
 res_r1={'COL/NAS':'COL 4', 'FLO/WAS':'FLO 6', 'TOR/TB':'TB 7', 'CAR/BOS': 'CAR 7', 'MIN/STL':'STL 6', 'EDM/LA':'EDM 7', 'CAL/DAL':'CAL 7', 'NYR/PIT':'NYR 7'}        
-res_r2={'CAL/EDM':'EDM 5', 'FLO/TB':'TB 4', 'COL/STL':'COL 6'}
+res_r2={'CAL/EDM':'EDM 5', 'FLO/TB':'TB 4', 'COL/STL':'COL 6', 'CAR/NYR':'NYR 7'}
 res_r3={}
 res_r4={}
 res=[res_r1,res_r2,res_r3,res_r4]
