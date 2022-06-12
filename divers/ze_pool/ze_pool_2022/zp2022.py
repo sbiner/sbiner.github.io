@@ -84,7 +84,7 @@ r4=[]
 
 res_r1={'COL/NAS':'COL 4', 'FLO/WAS':'FLO 6', 'TOR/TB':'TB 7', 'CAR/BOS': 'CAR 7', 'MIN/STL':'STL 6', 'EDM/LA':'EDM 7', 'CAL/DAL':'CAL 7', 'NYR/PIT':'NYR 7'}        
 res_r2={'CAL/EDM':'EDM 5', 'FLO/TB':'TB 4', 'COL/STL':'COL 6', 'CAR/NYR':'NYR 7'}
-res_r3={'COL/EDM':'COL 4'}
+res_r3={'COL/EDM':'COL 4', 'NYR/TB':'TB 6'}
 res_r4={}
 res=[res_r1,res_r2,res_r3,res_r4]
 pts_gagnant=[10,15,20,25]
