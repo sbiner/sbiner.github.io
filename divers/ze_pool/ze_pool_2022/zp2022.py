@@ -1,3 +1,4 @@
+
 # ajout de htmlgen et de biner
 rep_htmlgen='../../../../../../Local/modules_externes/HTMLgen'
 rep_htmlgen="/Users/sbiner/cloud/Sync/local/modules_externes/HTMLgen"
@@ -78,8 +79,23 @@ r3.append('Yorann, EDM 6, TB 7'.split(','))
 r3.append('Etienne, COL 6, NYR 6'.split(','))
 
 
-clefs_r4='nom '.split()
+clefs_r4='nom COL/TB'.split()
 r4=[]
+r4.append('Fred, TB 4'.split(','))
+r4.append('Travis, COL 6'.split(','))
+r4.append('Alain, TB 6'.split(','))
+r4.append('Pat, COL 7'.split(','))
+r4.append('Do, TB 6'.split(','))
+r4.append('Mike, COL 7'.split(','))
+r4.append('Valerie, COL 6'.split(','))
+r4.append('Phil R., TB 7'.split(','))
+r4.append('Phil P., COL 7'.split(','))
+r4.append('Seb, EDM 6, TB 7 '.split(','))
+r4.append('Norm, TB 7, '.split(','))
+r4.append('Daniel, COL 6, '.split(','))
+r4.append('Chee, TB 6'.split(','))
+r4.append('Yorann, TB 7'.split(','))
+r4.append('Etienne, COL 6'.split(','))
 
 
 res_r1={'COL/NAS':'COL 4', 'FLO/WAS':'FLO 6', 'TOR/TB':'TB 7', 'CAR/BOS': 'CAR 7', 'MIN/STL':'STL 6', 'EDM/LA':'EDM 7', 'CAL/DAL':'CAL 7', 'NYR/PIT':'NYR 7'}        
