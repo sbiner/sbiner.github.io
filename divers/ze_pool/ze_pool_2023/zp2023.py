@@ -73,7 +73,7 @@ clefs_r4='nom '.split()
 r4=[]
 
 
-res_r1={}        
+res_r1={"DAL/MIN":"DAL 6", "TOR/TB": "TOR 6", "EDM/LAK":"EDM 6", "VGK/WIN":"VGK 5", "CAR/NYI":"CAR 6"}        
 res_r2={}
 res_r3={}
 res_r4={}
