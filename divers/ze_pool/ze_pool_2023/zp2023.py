@@ -18,19 +18,35 @@ fh = open("ze_pool_2023 - Feuille 1.csv")
 lines = fh.read().splitlines()
 fh.close()
 
-clefs_r1 = lines[0].upper().split(",")[:-1]
-clefs_r1[0] = "nom"
+clefs = lines[0].upper().split(",")
+clefs[0] = "nom"
 
-r1 = []
+
+# traitement des choix de la ronde #1
+clefs_r1=clefs[1:9]
+clefs_r2 = clefs[10:15]
+clefs_r3 = clefs[15:16]
+clefs_r4 = clefs[16:17]
+
+choix = []
 for ll in lines[1:]:
     tampon = ll.split(",")
     tampon2 = tampon[:1] + [cc.upper() for cc in tampon[1:]]
-    r1.append(tampon2)
-    print(r1)
+    choix.append(tampon2)
+    print(choix)
+# on separe les resultats
+res = choix.pop()
 
+r1 = [ c[:1]+c[1:9] for c in choix]
+r2 = [ c[:1]+c[10:14] for c in choix]
+r3 = [ c[:1]+c[14:16] for c in choix]
+r4 = [ c[:1]+c[16:17] for c in choix]
+listeCs = [ c[:1]+c[9:10] for c in choix]
 
-
-
+# patch pour le reste
+if len(r2[0]) == 1 : r2=[]
+if len(r3[0]) == 1 : r3=[]
+if len(r4[0]) == 1 : r4=[]
 
 # 1/0          
 # clefs_r1='nom  CAR/BOS TOR/TB NYR/PIT FLO/WAS MIN/STL EDM/LA COL/NAS CAL/DAL'.split()
@@ -52,26 +68,25 @@ for ll in lines[1:]:
 # r1.append('Etienne, CAR 6, TB 7, NYR 6, FLO 6, MIN 6, EDM 6, COL 5, CAL 6, CAR'.split(','))
 
 
-# On separe la liste de coup de circuit des autres
-listeCs=[]
-listeR1=[]
-for r in r1 :
-    listeCs.append([r[0],r[-1]])
-    listeR1.append(r[0:-1])
-r1=listeR1
+# # On separe la liste de coup de circuit des autres
+# listeCs=[]
+# listeR1=[]
+# for r in r1 :
+#     listeCs.append([r[0],r[-1]])
+#     listeR1.append(r[0:-1])
+# r1=listeR1
 
 
-clefs_r2='nom '.split()
-r2=[]
+# clefs_r2='nom '.split()
+# r2=[]
 
 
-clefs_r3='nom '.split()
-r3=[]
+# clefs_r3='nom '.split()
+# r3=[]
 
 
-clefs_r4='nom '.split()
-r4=[]
-
+# clefs_r4='nom '.split()
+# r4=[]
 
 res_r1={"DAL/MIN":"DAL 6", "TOR/TB": "TOR 6", "EDM/LAK":"EDM 6", "VGK/WIN":"VGK 5", "CAR/NYI":"CAR 6", "BOS/FLO":"FLO 7", "COL/SEA":"SEA 7", "NJ/NYR":"NJ 7"}        
 res_r2={}
@@ -85,6 +100,7 @@ pts_coup_circuit=40
 # on enleve la colonne contenant le nom pour les rondes autres que 1
 
 clefs=clefs_r1+clefs_r2[1:]+clefs_r3[1:]+clefs_r4[1:]
+clefs=["nom"]+clefs_r1+clefs_r2+clefs_r3+clefs_r4
 r2_modif=[]
 for n in r2 :
     r2_modif.append(n[1:])
@@ -98,6 +114,7 @@ for n in r4:
 # on batit le tableau avec les choix de toutes les rondes
 ronde=[]
 for j in range(len(r1)) :
+    print(j)
 #   choix=r1[j]+r2_modif[j]+r3_modif[j]+r4_modif[j]
     choix=r1[j]
     if len(r2_modif) : choix=choix+r2_modif[j]
@@ -106,6 +123,7 @@ for j in range(len(r1)) :
 
     ronde.append(choix)
 
+    
 # On bati le dict des choix de tout le monde
 choix=[]
 for j in range(len(ronde)) :
