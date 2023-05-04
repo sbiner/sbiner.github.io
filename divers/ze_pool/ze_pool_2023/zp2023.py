@@ -23,10 +23,10 @@ clefs[0] = "nom"
 
 
 # traitement des choix de la ronde #1
-clefs_r1=clefs[1:9]
-clefs_r2 = clefs[10:15]
-clefs_r3 = clefs[15:16]
-clefs_r4 = clefs[16:17]
+clefs_r1 = clefs[0:9]
+clefs_r2 = clefs[:1] + clefs[10:15]
+clefs_r3 = clefs[:1] + clefs[15:16]
+clefs_r4 = clefs[:1] + clefs[16:17]
 
 choix = []
 for ll in lines[1:]:
@@ -100,7 +100,7 @@ pts_coup_circuit=40
 # on enleve la colonne contenant le nom pour les rondes autres que 1
 
 clefs=clefs_r1+clefs_r2[1:]+clefs_r3[1:]+clefs_r4[1:]
-clefs=["nom"]+clefs_r1+clefs_r2+clefs_r3+clefs_r4
+# clefs=["nom"]+clefs_r1+clefs_r2+clefs_r3+clefs_r4
 r2_modif=[]
 for n in r2 :
     r2_modif.append(n[1:])
