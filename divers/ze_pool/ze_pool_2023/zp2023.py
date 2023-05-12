@@ -89,7 +89,7 @@ if len(r4[0]) == 1 : r4=[]
 # r4=[]
 
 res_r1={"DAL/MIN":"DAL 6", "TOR/TB": "TOR 6", "EDM/LAK":"EDM 6", "VGK/WIN":"VGK 5", "CAR/NYI":"CAR 6", "BOS/FLO":"FLO 7", "COL/SEA":"SEA 7", "NJ/NYR":"NJ 7"}        
-res_r2={}
+res_r2={"CAR/NJ":"CAR 5"}
 res_r3={}
 res_r4={}
 res=[res_r1,res_r2,res_r3,res_r4]
