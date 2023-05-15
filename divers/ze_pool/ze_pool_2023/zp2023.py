@@ -18,7 +18,9 @@ fh = open("ze_pool_2023 - Feuille 1.csv")
 lines = fh.read().splitlines()
 fh.close()
 
-clefs = lines[0].upper().split(",")
+CHAR_SPLIT = ","
+
+clefs = lines[0].upper().split(CHAR_SPLIT)
 clefs[0] = "nom"
 
 
@@ -30,7 +32,7 @@ clefs_r4 = clefs[:1] + clefs[16:17]
 
 choix = []
 for ll in lines[1:]:
-    tampon = ll.split(",")
+    tampon = ll.split(CHAR_SPLIT)
     tampon2 = tampon[:1] + [cc.upper() for cc in tampon[1:]]
     choix.append(tampon2)
     print(choix)
