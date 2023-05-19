@@ -26,8 +26,8 @@ clefs[0] = "nom"
 
 # traitement des choix de la ronde #1
 clefs_r1 = clefs[0:9]
-clefs_r2 = clefs[:1] + clefs[10:15]
-clefs_r3 = clefs[:1] + clefs[15:16]
+clefs_r2 = clefs[:1] + clefs[10:14]
+clefs_r3 = clefs[:1] + clefs[14:16]
 clefs_r4 = clefs[:1] + clefs[16:17]
 
 choix = []
