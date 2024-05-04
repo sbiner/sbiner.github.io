@@ -14,7 +14,7 @@ import string
 #import pandas as pd
 
 # lecture du fichier csv
-fh = open("ze_pool_2024 - Feuille 1.csv")
+fh = open("ze_pool_2024 - feuille1.csv")
 lines = fh.read().splitlines()
 fh.close()
 
@@ -96,7 +96,7 @@ res_r1= {}
 res_r1 = dict(zip(clefs_r1[1:], res[1:9]))
 # on enleve les serie pas finies
 res_r1 = dict((k, v) for k, v in res_r1.iteritems() if v)
-
+#1/0
 res_r2={}
 res_r3={}
 res_r4={}
