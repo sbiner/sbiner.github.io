@@ -50,7 +50,6 @@ if len(r2[0]) == 1 : r2=[]
 if len(r3[0]) == 1 : r3=[]
 if len(r4[0]) == 1 : r4=[]
 
-# 1/0          
 # clefs_r1='nom  CAR/BOS TOR/TB NYR/PIT FLO/WAS MIN/STL EDM/LA COL/NAS CAL/DAL'.split()
 # r1=[]
 # r1.append('Fred, BOS 4, TB 4, PIT 4, WAS 4, STL 4, LA 4, NAS 4, DAL 4, NAS'.split(','))
@@ -89,15 +88,17 @@ if len(r4[0]) == 1 : r4=[]
 
 # clefs_r4='nom '.split()
 # r4=[]
-print r1
-print res
-#1/0
+
+
 res_r1= {}
 res_r1 = dict(zip(clefs_r1[1:], res[1:9]))
 # on enleve les serie pas finies
 res_r1 = dict((k, v) for k, v in res_r1.iteritems() if v)
 #1/0
 res_r2={}
+res_r2 = dict(zip(clefs_r2[1:], res[10:14]))
+# on enleve les serie pas finies
+res_r2 = dict((k, v) for k, v in res_r2.iteritems() if v)
 res_r3={}
 res_r4={}
 res=[res_r1, res_r2,res_r3,res_r4]
