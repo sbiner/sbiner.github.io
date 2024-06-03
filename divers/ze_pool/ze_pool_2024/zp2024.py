@@ -94,13 +94,20 @@ res_r1= {}
 res_r1 = dict(zip(clefs_r1[1:], res[1:9]))
 # on enleve les serie pas finies
 res_r1 = dict((k, v) for k, v in res_r1.iteritems() if v)
-#1/0
+
 res_r2={}
 res_r2 = dict(zip(clefs_r2[1:], res[10:14]))
 # on enleve les serie pas finies
 res_r2 = dict((k, v) for k, v in res_r2.iteritems() if v)
+
 res_r3={}
+res_r3 = dict(zip(clefs_r3[1:], res[14:16]))
+# on enleve les serie pas finies
+res_r3 = dict((k, v) for k, v in res_r3.iteritems() if v)
+
+
 res_r4={}
+
 res=[res_r1, res_r2,res_r3,res_r4]
 pts_gagnant=[10,15,20,25]
 pts_matchs=[2,3,4,5]
