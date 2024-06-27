@@ -107,6 +107,9 @@ res_r3 = dict((k, v) for k, v in res_r3.iteritems() if v)
 
 
 res_r4={}
+res_r4 = dict(zip(clefs_r4[1:], res[16:17]))
+# on enleve les serie pas finies
+res_r4 = dict((k, v) for k, v in res_r4.iteritems() if v)
 
 res=[res_r1, res_r2,res_r3,res_r4]
 pts_gagnant=[10,15,20,25]
