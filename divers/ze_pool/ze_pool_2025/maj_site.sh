@@ -4,15 +4,15 @@ date
 
 set -aex
 
-# maj de public_html sur idisk
-#repIdisk=/Volumes/sbiner/Web/Sites
-#rsync -avzu --stats --progress /Users/sbiner/Dropbox/Documents/site_web/public_html/* $repIdisk
-#rsync -avzu --stats --progress maj_site.sh $repIdisk
+# maj du site sur gitub
 
-# maj de public_html sur silenceisdefeat
-ici=`pwd`
-cd /Users/sbiner/Dropbox/perso/site_web
-rsync -avzu -e ssh --stats --progress public_html/ sbiner@silenceisdefeat.com:/home/sbiner/public_html
-cd ${ici}
+# copie du fichier .csv localement
+mv ~/Downloads/ze_pool_2025\ -\ feuille1.csv .
+
+# execution du code
+/Users/sbiner/miniconda3/envs/py27/bin/python zp2025.py
+git add .
+git commit -m "maj"
+git push
 
 
