@@ -1,20 +1,20 @@
-,buf/bos,tbl/mtl,car/ott,pit/phi,col/lak,dal/min,vgk/uta,edm/ana,cc,car/phi,buf/mtl,col/min,vgk/ana
-seb*,buf 6,mtl 6,car 5,pit 6,col 5,min 7,uta 7,edm 6,col,car 6,mtl 6,col 6,ana 6
-alain,buf 6,tbl 7,ott 7,phi 6,col 4,min 7,uta 6,edm 6,col,car 6,mtl 6,col 6,vgk 6
-chee*,buf 7,tbl 5,ott 6,pit 7,col 4,dal 7,uta 6,edm 5,ott,car 4,buf 6,col 5,vgk 6
-justine*,buf 6,mtl 7,car 6,pit 7,col 5,dal 6,vgk 6,edm 7,car,car 5,buf 6,col 6,vgk 6
-etienne*,buf 7,tbl 7,car 7,pit 6,col 5,dal 7,vgk 7,edm 6,col,car 5,buf 5,col 6,vgk 7
-travis,bos 6,mtl 6,car 7,pit 6,col 6,min 7,vgk 5,edm 7,mtl,car 6,mtl 6,col 6,vgk 6
-fred,buf 6,tbl 5,car 6,pit 7,col 5 ,dal 7,vgk 5,edm 6,vgk,car 5,buf 5,col 6,vgk 6
-louis-philippe*,buf 7,tbl 6,car 6,pit 6,col 5 ,dal 6,vgk 6,ana 7,col,car 5,buf 6,col 6,ana 6
-philippe R.,buf 6,tbl 7,car 6,pit 6,col 5 ,dal 6,vgk 6,edm 5,col,car 6,,col 6,ana 6
-philippe P.,buf 7,mtl 7,ott 7,pit 6,col 6,min 7,vgk 6,edm 6,col,car 6,mtl 7,col 7,vgk 7
-Daniel,buf 6,mtl 7,car 7,phi 7,col 5 ,dal 7,vgk 6,edm 5,col,car 6,mtl 6,col 5,vgk 6
-Norm,bos 7,tbl 6,car 5,pit 7,col 5,dal 7,vgk 5,edm 6,car,car 5,mtl 4,col 7,vgk 5
-Pat,buf 6,mtl 6,car 5,pit 6,col 4,min 7,vgk 4,edm 6,mtl,car 6,mtl 6,col 6,vgk 6
-Valérie*,buf 6,mtl 6,car 5,pit 6,col 5,dal 6,uta 6,edm 6,col,car 5,mtl 6,col 5,ana 6
-Guillem,bos 6,tbl 6,car 5,pit 5,col 5,dal 7,uta 6,edm 5,col,car 5,buf 7,col 6,vgk 6
-Éric D. *,buf 5,mtl 6,car 5,phi 7,col 5,dal 7,vgk 6,edm 6,col,car 6,buf 6,col 6,vgk 6
-Nathalie*,buf 6,mtl 7,car 6,pit 7,col 5,dal 7,uat 7,edm 6,col,car 6,mtl 6,col 6,vgk 6
-Blaise*,bos 7,tbl 7,car 5,pit 7,col 4,min 7,vgk 6,edm 5,col,car 5,buf 6,col 5,vgk 7
-resultats,buf 6,mtl 7,car 4,phi 6,col 4,min 6,vgk 6,ana 6,,,,,
+,buf/bos,tbl/mtl,car/ott,pit/phi,col/lak,dal/min,vgk/uta,edm/ana,cc,car/phi,buf/mtl,col/min,vgk/ana,
+seb*,buf 6,mtl 6,car 5,pit 6,col 5,min 7,uta 7,edm 6,col,car 6,,col 6,ana 6,mtl 6
+alain,buf 6,tbl 7,ott 7,phi 6,col 4,min 7,uta 6,edm 6,col,car 6,,col 6,vgk 6,mtl 6
+chee*,buf 7,tbl 5,ott 6,pit 7,col 4,dal 7,uta 6,edm 5,ott,car 4,,col 5,vgk 6,buf 6
+justine*,buf 6,mtl 7,car 6,pit 7,col 5,dal 6,vgk 6,edm 7,car,car 5,,col 6,vgk 6,buf 6
+etienne*,buf 7,tbl 7,car 7,pit 6,col 5,dal 7,vgk 7,edm 6,col,car 5,,col 6,vgk 7,buf 5
+travis,bos 6,mtl 6,car 7,pit 6,col 6,min 7,vgk 5,edm 7,mtl,car 6,,col 6,vgk 6,mtl 6
+fred,buf 6,tbl 5,car 6,pit 7,col 5 ,dal 7,vgk 5,edm 6,vgk,car 5,,col 6,vgk 6,buf 5
+louis-philippe*,buf 7,tbl 6,car 6,pit 6,col 5 ,dal 6,vgk 6,ana 7,col,car 5,,col 6,ana 6,buf 6
+philippe R.,buf 6,tbl 7,car 6,pit 6,col 5 ,dal 6,vgk 6,edm 5,col,car 6,,col 6,ana 6,
+philippe P.,buf 7,mtl 7,ott 7,pit 6,col 6,min 7,vgk 6,edm 6,col,car 6,,col 7,vgk 7,mtl 7
+Daniel,buf 6,mtl 7,car 7,phi 7,col 5 ,dal 7,vgk 6,edm 5,col,car 6,,col 5,vgk 6,mtl 6
+Norm,bos 7,tbl 6,car 5,pit 7,col 5,dal 7,vgk 5,edm 6,car,car 5,,col 7,vgk 5,mtl 4
+Pat,buf 6,mtl 6,car 5,pit 6,col 4,min 7,vgk 4,edm 6,mtl,car 6,,col 6,vgk 6,mtl 6
+Valérie*,buf 6,mtl 6,car 5,pit 6,col 5,dal 6,uta 6,edm 6,col,car 5,,col 5,ana 6,mtl 6
+Guillem,bos 6,tbl 6,car 5,pit 5,col 5,dal 7,uta 6,edm 5,col,car 5,,col 6,vgk 6,buf 7
+Éric D. *,buf 5,mtl 6,car 5,phi 7,col 5,dal 7,vgk 6,edm 6,col,car 6,,col 6,vgk 6,buf 6
+Nathalie*,buf 6,mtl 7,car 6,pit 7,col 5,dal 7,uat 7,edm 6,col,car 6,,col 6,vgk 6,mtl 6
+Blaise*,bos 7,tbl 7,car 5,pit 7,col 4,min 7,vgk 6,edm 5,col,car 5,,col 5,vgk 7,buf 6
+resultats,buf 6,mtl 7,car 4,phi 6,col 4,min 6,vgk 6,ana 6,,,,,,
